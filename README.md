@@ -1,5 +1,11 @@
 # EKey-Jerboa
+<p align="center">
+  <img src="docs%20screenshots/ui.png" alt="EKey-Jerboa" width="800">
+</p>
 
+<p align="center">
+  <b>GPU-accelerated search tool for the Bitcoin "puzzle" challenges.</b>
+</p>
 **GPU-accelerated search tool for the Bitcoin "puzzle" challenges.**
 
 Given a target P2PKH address (or compressed public key) and a key range,
