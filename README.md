@@ -1,4 +1,4 @@
-# EKey-Jerboa
+# EKey-Jerboa v2
 <p align="center">
   <img src="docs%20screenshots/ui.png" alt="EKey-Jerboa" width="800">
 </p>
