@@ -1,0 +1,55 @@
+# ── EKey-Jerboa .gitignore ───────────────────────────────────────────────
+
+# ── Build output ──────────────────────────────────────────────────────────
+EKey-Jerboa
+EKey-Jerboa.exe
+*.exe
+*.obj
+*.o
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.idb
+GPU/*.o
+hash/*.o
+
+# ── CUDA / nvcc intermediates ─────────────────────────────────────────────
+*.ptx
+*.cubin
+*.fatbin
+*.fatbin.c
+*.module_id
+*.cudafe1.*
+*.reg.c
+
+# ── Runtime / generated data ──────────────────────────────────────────────
+# Per-puzzle/chunk/mode/section progress folders (p<puz>_0x..-0x.._<mode>_S<N>)
+p*_0x*/
+# Temp launcher config written next to the exe at start
+_launcher_tmp.json
+# Launcher config folder (user-specific; Default.json is auto-created)
+Configs/
+# Found-key output and logs
+found*.txt
+*.log
+
+# ── Launcher (Python) ─────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.spec
+build/
+dist/
+
+# ── Editors / OS junk ─────────────────────────────────────────────────────
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+Thumbs.db
+desktop.ini
+.DS_Store
+*~
+*.swp
